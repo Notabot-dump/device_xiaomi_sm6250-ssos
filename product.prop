@@ -11,9 +11,6 @@ ro.config.low_ram=false
 # Incremental FS
 ro.incremental.enable=1
 
-# Use Vulkan backend for Skia UI rendering
-debug.hwui.renderer=skiavk
-
 # IORap
 ro.iorapd.enable=true
 iorapd.perfetto.enable=true
