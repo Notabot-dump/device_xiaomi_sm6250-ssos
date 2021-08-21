@@ -19,7 +19,6 @@ genfscon sysfs /devices/virtual/misc/msm_multi_aac/wakeup                       
 genfscon sysfs /devices/virtual/misc/msm_qcelp/wakeup                                u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/virtual/misc/msm_wma/wakeup                                  u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/virtual/misc/msm_wmapro/wakeup                               u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/virtual/wakeup                                               u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/18800000.qcom,icnss/wakeup                      u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/88e0000.qcom,msm-eud/wakeup/wakeup3                     u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/a600000.ssusb/wakeup/wakeup5                            u:object_r:sysfs_wakeup:s0
@@ -44,5 +43,4 @@ genfscon sysfs /devices/platform/soc/soc:qcom,msm-audio-apr/soc:qcom,msm-audio-a
 genfscon sysfs /devices/platform/soc/soc:qcom,msm-audio-apr/soc:qcom,msm-audio-apr:qcom,q6core-audio/soc:qcom,msm-audio-apr:qcom,q6core-audio:bolero-cdc/tx-macro/tx_swr_ctrl/wakeup/wakeup48        u:object_r:sysfs_wakeup:s0
 
 # Fingerprint
-genfscon sysfs /devices/platform/soc/soc:fpc1020                                              u:object_r:vendor_sysfs_fingerprint:s0
-genfscon sysfs /devices/platform/soc/soc:goodix_fp                      u:object_r:vendor_sysfs_fingerprint:s0
+genfscon sysfs /devices/soc/soc:fpc1020                                              u:object_r:vendor_sysfs_fingerprint:s0
